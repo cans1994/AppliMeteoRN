@@ -1921,6 +1921,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-community/geolocation@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@react-native-community/geolocation@npm:2.0.2"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: b072e740d0a3bd05f6166d66a5ab268d248092ab812b215539667ce0d4b01a078faed9a1bb45ac654e6aae976115f5b8c68dcab9de02e1a811b30cc5bb2e7d36
+  languageName: node
+  linkType: hard
+
 "@react-native/assets@npm:1.0.0":
   version: 1.0.0
   resolution: "@react-native/assets@npm:1.0.0"
@@ -6363,6 +6373,7 @@ __metadata:
   resolution: "reactnativeappm@workspace:."
   dependencies:
     "@babel/core": ^7.12.9
+    "@react-native-community/geolocation": ^2.0.2
     expo: ~44.0.0
     expo-status-bar: ~1.2.0
     react: 17.0.1
